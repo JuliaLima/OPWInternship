@@ -1,0 +1,93 @@
+Name: Julia Lima
+
+E-mail address: julia.lima.dg@gmail.com
+
+IRC Nick: julialima
+
+Web Page / Blog / Microblog (e.g. Twitter) / Portfolio: http://julialima.com.ar/eng.html
+
+Location: Villa Carlos Paz, Cordoba, Argentina
+
+Education completed or in progress (include university, major/concentration, degree level, and graduation year): Bachelor of design - minor Graphic Design. Universidad Provincial de Cordoba Argentina. In progress - expected graduation year 2015.
+
+How did you hear about this program? From my boyfriend, who receives a digital banner posted in his university mailing list (Universidad Nacional de Cordoba).
+
+Please describe your experience with the organization's product as a user and as a contributor (include the information, as well as a link or an attachment, for the required contribution you made to the project you are interested in here): As a contributor I have proposed three ways to improve the actual Evergreen's staff web application UI. I have posted them in the OPW Evegreen wiki. You can read them from the following links:
+	* System feedback loops: http://wiki.evergreen-ils.org/doku.php?id=opw:ui_suggest:julialima#st_improvement_proposedsystem_feedback_loops
+	* Visual improvements: http://wiki.evergreen-ils.org/doku.php?id=opw:ui_suggest:julialima#nd_improvement_proposedvisual_improvements
+	* Applying the progressive disclosure design pattern to the "Patron search" UI: http://wiki.evergreen-ils.org/doku.php?id=opw:ui_suggest:julialima#rd_improvement_proposedapplying_the_progressive_disclosure_design_pattern_to_the_patron_search_ui
+
+Please describe your experience with any other FOSS projects as a user and as a contributor: I was involved as a UI designer in a FOSS project called "Preciosa", which is a web mobile application intended to help people from my country to fight the monetary inflation that Argentina suffers. The basic idea is that users enter product's prices in the app with their cellphones and then they are noticed in which near market that product is cheaper. I have a lot of troubles to contribute in that project because I was the only with design skills and the general organization wasn't good at all. The link to this project is: http://preciosdeargentina.com.ar/
+
+Please describe any relevant projects that you have worked on previously and what knowledge you gained from working on them (include links):
+
+What project(s) are you interested in (these can be in the same or different organizations)? I am interested in the UI style guide project from Evergreen.
+
+Who is a possible mentor for the project you are most interested in? For the Everegreen's UI style guide project, the two possible mentors are: 
+	* Dan Wells - IRC nick: dbwells, email: dbw2@calvin.edu
+	* Bill Erickson - IRC nick: berick, email: berickxx@gmail.com
+
+Please describe the details and the timeline of the work you plan to accomplish on the project you are most interested in (discuss these first with the mentor of the project):
+
+UI style guide for Evergreen
+
+==== Project Description ====
+	Products are made to be used. There is no reason to add effort to develop, test and document a product that won't be as much used as expected. In such way, thinking about the product's users is fundamental for every succesful organization. This is why user experience design has gained so much importance in the few last years. In software products the user experience is provided mainly through the user interface, and how a user interface is developed is guided by a UI style guide. Therefore having a UI style guide for a software product has become critical to control and improve the user experience. This is why nowdays there is no succesful software without a well define style guide.
+
+	This project is to create a complete UI style guide for Evergreen that can be used by developers as they design interfaces. The style guide should include guidelines for consistent layout of pages, design principles, design patterns and design elements as well as consistent language.
+	
+	I consider so important a complete specification of a UI style guide for Evergreen, that I've related the three UI problems I've been working on in my initial contribution, with the absence or poor definition of this kind of documentation:
+		- http://wiki.evergreen-ils.org/doku.php?id=opw:ui_suggest:julialima#additional_comments
+		- http://wiki.evergreen-ils.org/doku.php?id=opw:ui_suggest:julialima#where_all_these_problems_come_from
+		- http://wiki.evergreen-ils.org/doku.php?id=opw:ui_suggest:julialima#additional_comments1
+		
+	Actually, the three improvements I have proposed are just examples about some of the considerations that must be taken into account when creating a UI style guide.
+	
+==== Objectives  ====
+	Generate a UI style guide that serve as a tool for ensuring the following types of consistency across a product set:
+		Consistency with user expectations
+		Consistency across applications that are related/similar
+		Consistency across applications that are not related but come from the same company
+		Consistency with multiple style guides (note that there are often multiple style guides–the corporate logo/trademark style guide is a common one)
+		Consistency with de facto standards (for example the use of blue links to denote unvisited links)
+		Consistency of terminology
+		Consistency of interaction
+		Visual consistency (general GUI layout)
+		Consistency between pages/dialogs/windows
+		Consistency within pages/dialogs/windows
+		Icon consistency
+		Error message consistency
+	Generate a UI style guide that serve as a way to get designers and developers groups to work together
+	Generate a UI style guide that reduce arbitrary design decisions
+	Generate a UI style guide that serves as a repository for design guidelines, standards and patterns
+
+==== Methodology ==== 
+	draft - review - deliver
+	
+==== Milestones and timeline ====
+	* Ramp up - Due date: december 19
+		- Learn more deeply about evergreen:
+			- The product: purpose, history, features, branding, clients, users (personas), usages, etc.
+			- The team: teamates, collaborators, roles, methodologies (development/testing/designing/selling), processes
+		- Analize the state of the art (similar/related products).
+
+	* Project definitions - Due date: jaunary 6
+		- Define a set of requirements that fits with the objectives.
+		- Define a way to communicate drafts: time cycles, communication media, communication channel, etc.
+		- Define a way to review drafts: formal/informal process, communication media, communication channel, etc.
+		- Define a way to distribute the deliverables: communication media, high level documentation structure, etc.
+
+	* Specify high-level architectural guidelines and standards that will have the most impact - Due date: january 27
+		- Design principles.
+		- General design patterns that fits with the application requirements and the design principles (interaction).
+		- Layout, composition and organization for different screen's resolution, for the different UI pages/dialogs/windows variations.
+		
+	* Specify lower level and general issues - Due date: march 7
+		- Variations of color palette, typography, iconography, graphics, text guidelines, etc for the different UI pages/dialogs/windows.
+		- Variations of Building blocks for the different UI pages/dialogs/windows.
+		- Design patterns focused specific key features (like search).
+
+==== Project banner ====
+	http://julialima.com.ar/banner%20project-01.png
+
+Will you have any other time commitments, such as school work, another job, planned vacation, etc., between December 9, 2014 and March 9, 2015? No, I won't have any other commitment in that period.

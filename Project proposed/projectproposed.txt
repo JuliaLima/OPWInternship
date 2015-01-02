@@ -1,0 +1,58 @@
+-- Please describe the details and the timeline of the work you plan to accomplish on the project you are most interested in (discuss these first with the mentor of the project) --
+
+==== Project Description: UI style guide for Evergreen ====
+	Products are made to be used. There is no reason to add effort to develop, test and document a product that won't be as much used as expected. In such way, thinking about the product's users is fundamental for every succesful organization. This is why user experience design has gained so much importance in the few last years. In software products the user experience is provided mainly through the user interface, and how a user interface is developed is guided by a UI style guide. Therefore having a UI style guide for a software product has become critical to control and improve the user experience. This is why nowdays there is no succesful software without a well define style guide.
+
+	This project is to create a complete UI style guide for Evergreen that can be used by developers as they design interfaces. The style guide should include guidelines for consistent layout of pages, design principles, design patterns and design elements as well as consistent language.
+	
+	I consider so important a complete specification of a UI style guide for Evergreen, that I've related the three UI problems I've been working on in my initial contribution, with the absence or poor definition of this kind of documentation:
+		- http://wiki.evergreen-ils.org/doku.php?id=opw:ui_suggest:julialima#additional_comments
+		- http://wiki.evergreen-ils.org/doku.php?id=opw:ui_suggest:julialima#where_all_these_problems_come_from
+		- http://wiki.evergreen-ils.org/doku.php?id=opw:ui_suggest:julialima#additional_comments1
+	
+==== Objectives  ====
+	Generate a UI style guide that serve as a tool for ensuring the following types of consistency across a product set:
+		Consistency with user expectations
+		Consistency across applications that are related/similar
+		Consistency across applications that are not related but come from the same company
+		Consistency with multiple style guides (note that there are often multiple style guides–the corporate logo/trademark style guide is a common one)
+		Consistency with de facto standards (for example the use of blue links to denote unvisited links)
+		Consistency of terminology
+		Consistency of interaction
+		Visual consistency (general GUI layout)
+		Consistency between pages/dialogs/windows
+		Consistency within pages/dialogs/windows
+		Icon consistency
+		Error message consistency
+	Generate a UI style guide that serve as a way to get designers and developers groups to work together
+	Generate a UI style guide that reduce arbitrary design decisions
+	Generate a UI style guide that serves as a repository for design guidelines, standards and patterns
+
+==== Methodology ==== 
+	draft - review - deliver
+	
+==== Milestones and timeline ====
+	* Ramp up - Due date: december 23
+		- Learn more deeply about evergreen:
+			- The product: purpose, history, features, branding, clients, users (personas), usages, etc.
+			- The team: teamates, collaborators, roles, methodologies (development/testing/designing/selling), processes
+		- Analize the state of the art (similar/related products).
+
+	* Project definitions - Due date: december 30
+		- Define a set of requirements that fits with the objectives.
+		- Define a way to communicate drafts: time cycles, communication media, communication channel, etc.
+		- Define a way to review drafts: formal/informal process, communication media, communication channel, etc.
+		- Define a way to distribute the deliverables: communication media, high level documentation structure, etc.
+
+	* Specify high-level architectural guidelines and standards that will have the most impact - Due date: january 27
+		- Design principles.
+		- General design patterns that fits with the application requirements and the design principles (interaction).
+		- Layout, composition and organization for different screen's resolution, for the different UI pages/dialogs/windows variations.
+		
+	* Specify lower level and general issues - Due date: march 7
+		- Variations of color palette, typography, iconography, graphics, text guidelines, etc for the different UI pages/dialogs/windows.
+		- Variations of Building blocks for the different UI pages/dialogs/windows.
+		- Design patterns focused specific key features (like search).
+
+==== Project banner ====
+	http://julialima.com.ar/banner%20project-01.png
