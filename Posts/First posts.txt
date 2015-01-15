@@ -1,0 +1,84 @@
+Evergreen´s UI Style Guide
+--------------------------
+
+For those out there who are reading this and don’t know what Evergreen is, here I write a brief introduction. The Evergreen Project is highly-scalable open source software for libraries that helps library patrons find library materials, and helps libraries manage, catalog, and circulate those materials, no matter how large or complex the libraries.
+At present, the Evergreen community is migrating its desktop client into a web application. As might be expected, this migration is already being carried out. This is where I appear . I was assigned with the challenging task of creating a brand new UI Style guide for the Evergreen Project. When a project is already in process, this is that it has begun to be developed without having a guideline from the beginning, is somehow difficult to carry out the design style guide. This is because developers had to make decisions that are going to be discarded once the guidelines are implemented. Although, it is better to create and apply the style guide ASAP. 
+One of the first steps in the conception of a UI style guide should be: define the aesthetic, the color, typography, language and investigate which are the patterns and common usage of UI elements. Visual treatment is frequently the area in which developers will have most freedom of movement. However, once the designers have chosen a visual language, it’s important that everybody stick to it. Visual treatment applies not only to the obvious elements like logos and navigation, but also to content elements, fonts and backgrounds.
+The Evergreen´s  UI style guide will be written as an iterative process in which new designs, presented as mockups, will be discussed and then guidelines will be taken from them. It will include:
+
+•	Design Principles
+•	Page layout or Structure
+•	Visual Design
+•	UI Elements
+•	Common features
+•	Language (if possible)
+
+In this page I will list some post’s links where I’ll intent to show the progress in this work and the decisions made.
+
+// This is because I found the possibility of creating a new page in my blog, so everything regarding to the Evergreen Project will be found in one place. Altough each post will be posted in the "home page" of the blog.// 
+
+Where to start?
+---------------
+
+As there is already a previous layout design of the Evergreen´s web application, the first decision made is to analyze it and get all the data that can be used and discard those that do not.
+This is the current “sign in” UI:
+
+https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Posts/Evergreen%20Staff%20Home-01.png
+
+The first observation that can be made is that Evergreen´s logo is not there. On the second screen – once you are logged in - the logo will be shown in a big size. Although frequent users know where they are, new users will not. The logo will guarantee anyone knows that this specific set of user interfaces belongs to Evergreen.
+After a thorough analysis of the whole app, it was concluded that the general layout template or structure can be maintained. The only region that will be added is the one containing the Evergreen´s logo at the top of the screen above the main menu. This structure is comprised of a main menu and three main columns. It is a good choice to add a footer with a briefly sentence and the current year to show that the app is updated.
+To begin designing a style guide having something already developed implies that current users are habitual to current pages. Big changes may cause a discomfort because users will have to adapt to it again, but a redesign won´t be too much stricking. So, maintaining some colors, element locations and structure but changing some details will be the next step.
+This is my initial proposal:
+
+https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Posts/Evergreen%20Staff%20Home2-01.png
+
+•	The gradient background of the current menu has been transferred to the new design button.
+•	Background color of the new main menu will be green as the real color of the logo, trying to refresh its look and feel.
+•	Three columns are still structuring the new design.
+•	A footer referring to Evergreen is open source, the license, version and year.
+•	A form aligned at the center of the page.
+•	Orange pointing the field that has to be completed first.
+
+As a conclusion and as an initial sketch of the page general structure, it would look like:
+
+https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Posts/layout%20template.png
+
+•	Static header: Is important for the project to locate its logo permanently within the web application so that users know where they are even though it is a tool often used. This section will be always located at the very top of the page. Evegreen´s logo will be located on the left side. It also shows a user/library button that will allow the user to log out, switch between different accounts or any action regarding to this criteria, located on the right side of this header.
+•	Sections bar: All the actions that can be performed across the web application are divided and grouped into sections. Those sections are located in this bar present in all the web app screens. By clicking the sections a dropdown menu will be displayed. It can contain as many sections as needed.
+•	Action region: The information should be presented consistently in all the different screens of the web application, that´s why content (text, form, list, table, etc) will be shown in this limited area. Margins and grids must be respected.
+•	Briefly informative footer: Being an open source software project involves another type of perception regarding the product / service provided. A brief description about the license used and the current year to show that is updated will be fine.
+
+Next post: Staged Disclosure applied to Patron Search.
+
+Staged Disclosure applied to Patron Search
+------------------------------------------
+
+Applying a design pattern to a current task will allow us to both implement new design proposals as improvements in the usability of the web application. This kind of processes are the previous stages to define the “Design Principles” that are going to orientate developers to apply the guidelines defined in the future UI style guide.
+Current “Patron Search” looks like:
+
+https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Posts/Evergreen%20Staff%20Patron-01.png
+
+The “Patron search” UI shows an unnecessary amount of features. Therefore this UI becomes very cluttered and complex which can produce confusion to the users and can make the application more difficult to learn, ending up in degradation of the user experience.
+There is an entire disable menu showed to the user. This means that the UI is showing the user features that may be available in the future. A better approach would be to show this features when they are available in order to maintain the UI simple and to keep the user focused on the main task which is search for a patron.
+There is an empty space at the left of the search patron UI. This is actually saving space for the patron information but at this point the UI appears to be left aligned causing the loss of visual consistency. A better approach would be to show the patron information on demand, this is to say, when needed for the user.
+For UI problems of this kind, where it's wanted a very powerful interface, with many features, but it's also wanted to keep the interface as simple as possible, one of the best approaches is to apply the Staged Disclosure design pattern.
+This design pattern is useful when you can divide a task into distinct steps that have little interaction. It requires a thorough task analysis to understand which options are used together and which are better thought of as separate stages. The more features you can defer, the simpler your design, but if you divide the task into too many steps, users get bogged down by excess navigation. Staged disclosure is a variant of the progressive disclosure design pattern, in which users step through a linear sequence of options, with a subset displayed at each step.
+Patron search can be divided into three steps:
+
+1.	Search for patron: The only UI element that should be displayed on the screen will be the form. User will perform the search.
+2.	Results: A table will show all the results. User will choose a Patron.
+3.	Patron profile page: The patron profile and a sub menu will be displayed. User will work with the patron´s information.
+
+This proposal would look like this:
+
+https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Posts/Untitled-1-01.png
+
+Here we can find new redesigned elements:
+
+•	A User/Library button: This button will drop down the options of “change account” and “log out”, tasks that are completely related to user´s account.
+•	Title: Each section should have a title. It has an orange background.
+•	Orange button: This shows that buttons are not only green.
+•	Sub menu: Similar to the main menu but with its colors invert.
+•	Patron profile: Shown as a table.
+
+Next post: Defining Design Principles
